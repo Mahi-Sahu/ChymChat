@@ -1,5 +1,5 @@
 # ChymChat
-A chatting application based on the concept of hanging chyms
+A chatting application based on the concept of hanging chimes.
 
 **ChymsChat (In Progress)**  
 A Gen Z-style real-time chat application using Java and Firebase. Features include live messaging, user authentication, and multimedia sharing.  
@@ -10,7 +10,7 @@ A Gen Z-style real-time chat application using Java and Firebase. Features inclu
 ✔️ Profile customization (avatars, bio, status)  
 ✔️ Multimedia sharing (images, GIFs, voice notes)  
 ✔️ Message reactions & emojis  
-✔️ Various Chyms sounddepending upon the user's mood
+✔️ Various Chimes sounds depending upon the user's mood
 
 ## How It Works  
 - Users sign in using Google or email.  
