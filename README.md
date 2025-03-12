@@ -19,4 +19,4 @@ A Gen Z-style real-time chat application using Java and Firebase. Features inclu
 - Images and files are stored in Firebase Storage.  
 
 ## Note
-Thisproject is still in progress so certain features are coming soon.
+This project is still in progress so certain features are coming soon.
