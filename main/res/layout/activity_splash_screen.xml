@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBF4F0"
+    tools:context=".Splash_screen">
+
+    <ImageView
+        android:id="@+id/hangingchime"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_310sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splashscreencover" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_250sdp"
+        android:fontFamily="@font/lavishly_yours"
+        android:gravity="center"
+        android:text="Chym Chat"
+        android:textColor="#03203A"
+        android:textSize="@dimen/_76sdp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/redchime"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_marginStart="@dimen/_240sdp"
+        android:layout_marginTop="@dimen/_340sdp"
+        android:rotation="-25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/redchime" />
+
+    <ImageView
+        android:id="@+id/twochime"
+        android:layout_width="@dimen/_126sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_86sdp"
+        android:rotation="10"
+        app:layout_constraintEnd_toEndOf="@+id/redchime"
+        app:layout_constraintTop_toTopOf="@+id/redchime"
+        app:srcCompat="@drawable/twochimes" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="@dimen/_187sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginEnd="@dimen/_195sdp"
+        app:layout_constraintEnd_toEndOf="@+id/redchime"
+        app:layout_constraintTop_toTopOf="@+id/redchime"
+        app:srcCompat="@drawable/splashscreenbird" />
+</androidx.constraintlayout.widget.ConstraintLayout>

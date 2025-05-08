@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="@dimen/_80sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:background="@drawable/setting_background"
+    android:layout_marginLeft="@dimen/_4sdp"
+    android:layout_marginTop="@dimen/_2sdp"
+    android:layout_marginBottom="@dimen/_2sdp"
+    android:paddingTop="@dimen/_2sdp"
+    android:paddingBottom="@dimen/_2sdp">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="@dimen/_1sdp">
+
+<TextView
+    android:id="@+id/moodHappy"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="😊 Happy"
+    android:textSize="@dimen/_15sdp"
+    android:fontFamily="@font/norican_regular"
+    android:layout_gravity="left"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:padding="@dimen/_2sdp"
+    android:textColor="@color/black"/>
+<TextView
+    android:id="@+id/moodSad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="😢 Sad"
+    android:textSize="@dimen/_15sdp"
+    android:fontFamily="@font/norican_regular"
+    android:layout_gravity="left"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:padding="@dimen/_2sdp"
+    android:textColor="@color/black"/>
+<TextView
+    android:id="@+id/angryMood"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="😡 Angry"
+    android:textSize="@dimen/_15sdp"
+    android:fontFamily="@font/norican_regular"
+    android:layout_gravity="left"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:padding="@dimen/_2sdp"
+    android:textColor="@color/black"/>
+<TextView
+    android:id="@+id/celebrationMood"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="🎉 Celebration"
+    android:textSize="@dimen/_15sdp"
+    android:fontFamily="@font/norican_regular"
+    android:layout_gravity="left"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:padding="@dimen/_2sdp"
+    android:textColor="@color/black"/>
+<TextView
+    android:id="@+id/attentionMood"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="📢 Attention"
+    android:textSize="@dimen/_15sdp"
+    android:fontFamily="@font/norican_regular"
+    android:layout_gravity="left"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:padding="@dimen/_2sdp"
+    android:textColor="@color/black"/>
+<TextView
+    android:id="@+id/shatteredMood"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="😞 Shattered"
+    android:textSize="@dimen/_15sdp"
+    android:fontFamily="@font/norican_regular"
+    android:layout_gravity="left"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:padding="@dimen/_2sdp"
+    android:textColor="@color/black"/>
+<TextView
+    android:id="@+id/disagreeMood"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="❌ Disagree"
+    android:textSize="@dimen/_15sdp"
+    android:fontFamily="@font/norican_regular"
+    android:layout_gravity="left"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:padding="@dimen/_2sdp"
+    android:textColor="@color/black"/>
+<TextView
+    android:id="@+id/thinkMood"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="🤔 Think"
+    android:textSize="@dimen/_15sdp"
+    android:fontFamily="@font/norican_regular"
+    android:layout_gravity="left"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:padding="@dimen/_2sdp"
+    android:textColor="@color/black"/>
+<TextView
+    android:id="@+id/relaxedMood"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="😌 Relaxed"
+    android:textSize="@dimen/_15sdp"
+    android:fontFamily="@font/norican_regular"
+    android:layout_gravity="left"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:padding="@dimen/_2sdp"
+    android:textColor="@color/black"/>
+</LinearLayout>
+</ScrollView>

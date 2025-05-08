@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_240sdp"
+    android:layout_height="wrap_content"
+    android:layout_margin="13dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_dialog">
+
+    <ImageView
+        android:id="@+id/dialog_logout_logo"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_7sdp"
+        android:src="@drawable/logout" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you really want to \nlogout?"
+        android:textSize="@dimen/_23sdp"
+        android:gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        android:fontFamily="@font/alice"
+        android:textColor="@color/white">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/yes_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_weight="1"
+            android:backgroundTint="#81D8D9"
+            android:fontFamily="@font/alice"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:text="Yes"
+            android:textSize="@dimen/_20sdp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/no_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_weight="1"
+            android:backgroundTint="#81D8D9"
+            android:fontFamily="@font/alice"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="No"
+            android:textSize="@dimen/_20sdp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

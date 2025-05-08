@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/sender_image"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/_4sdp"
+        android:src="@drawable/cameraicon" />
+    <TextView
+        android:id="@+id/senderTextMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_1sdp"
+        android:layout_toLeftOf="@+id/sender_image"
+        android:background="@drawable/sender_shape"
+        android:fontFamily="@font/alice"
+        android:textColor="@color/black"
+        android:padding="@dimen/_6sdp"
+        android:text="Mahi Sahu"
+        android:textSize="@dimen/_15sdp"/>
+
+</RelativeLayout>

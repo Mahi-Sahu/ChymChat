@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreenside"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:background="#D13480A5"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/alice"
+            android:text="@string/chym_chat"
+            android:textColor="@color/common_text_color"
+            android:textSize="@dimen/_40sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logoutButton"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/logout" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainUser_recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="472dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_110sdp" />
+
+    <ImageView
+        android:id="@+id/taskbar"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/rounded_rectangle"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/cameraicon"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignStart="@+id/taskbar"
+        android:layout_alignTop="@+id/taskbar"
+        android:layout_alignBottom="@+id/taskbar"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginBottom="@dimen/_1sdp"
+        android:contentDescription="@string/cameraicon"
+        app:srcCompat="@drawable/cameraicon" />
+
+    <ImageView
+        android:id="@+id/chaticon"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignTop="@+id/taskbar"
+        android:layout_alignBottom="@+id/taskbar"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginBottom="@dimen/_1sdp"
+        android:layout_toEndOf="@+id/cameraicon"
+        app:srcCompat="@drawable/chaticon" />
+
+    <ImageView
+        android:id="@+id/settingicon"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_6sdp"
+        android:layout_alignTop="@+id/taskbar"
+        android:layout_alignEnd="@+id/taskbar"
+        android:layout_alignBottom="@+id/taskbar"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_toEndOf="@+id/chaticon"
+        app:srcCompat="@drawable/settingicon" />
+
+
+</RelativeLayout>
